@@ -1,10 +1,15 @@
+import './ExpenceItem.css';
 function ExpenceItems(){
 return(
-    <div>
+    <div className='expItem'>
+        <div>
         <h1>Expence Items</h1>
-        <h5>Food Rs 10</h5>
-        <h5>patrol Rs 100</h5>
-        <h5>movies Rs 200</h5>
+        <div><h5 id='itemlist'>Food Rs 10</h5></div>
+        
+       <div><h5 id='itemlist'>patrol Rs 100</h5></div> 
+       <div><h5 id='itemlist'>movies Rs 200</h5></div> 
+        </div>
+        
     </div>
 
 );

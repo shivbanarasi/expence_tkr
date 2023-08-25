@@ -1,0 +1,14 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+
+.expItem{
+    padding: 0%;
+    background-color: aqua;
+}
+
+#itemlist{
+    color: brown;
+}
