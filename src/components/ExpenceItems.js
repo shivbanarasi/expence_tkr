@@ -1,17 +1,21 @@
 import './ExpenceItem.css';
+import ExpenceDate from './ExpenceDate';
+import ExpenceDetail from './ExpenceDetail';
 function ExpenceItems(props){
-    // const list=["Food","petrol","movies"];
-    // const price=[10,100,200];
-    // const locationofexpen=["raju dhaba","reliance patrol pump,delhi",'pvr cinema']
+    const date=props.date;
+    const title=props.title;
+    const price=props.price;
+    const location=props.location;
+    
 return(
     <div className='expItem'>
-        <div>
-        {/* <h1>Expence Items</h1> */}
-       <div><h5 id='itemlist'>{props.title} Rs {props.price} at {props.location}</h5></div> 
        
+       <div className='exp_disp'>
+        <ExpenceDate date={date}/>
+        <ExpenceDetail title={title} price={price} location={location} />
+       </div> 
         </div>
-        
-    </div>
+   
 
 );
 }

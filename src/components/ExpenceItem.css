@@ -12,3 +12,43 @@
 #itemlist{
     color: brown;
 }
+
+.exp_disp{
+    padding: 5px;
+    display: flex;
+    background-color: brown;
+    border:solid 2px black;
+    border-radius: 10px;
+}
+.exp_date{
+   padding: 5px;
+   margin-right: 100px;
+   margin-bottom: 20px;
+   color: white; 
+   border:solid 2px white;
+   border-radius: 10px;
+}
+.exp_title{
+    padding: 5px;
+   margin-right: 100px;
+   margin-bottom: 20px;
+   color: white;
+   border:solid 2px white;
+   border-radius: 10px;
+}
+.exp_price{
+    padding: 5px;
+   margin-right: 100px;
+   margin-bottom: 20px;
+   color: white;
+   border:solid 2px white;
+   border-radius: 10px;
+}
+.exp_location{
+    padding: 5px;
+   margin-right: 100px;
+   margin-bottom: 20px;
+   color: white;
+   border:solid 2px white;
+   border-radius: 10px;
+}

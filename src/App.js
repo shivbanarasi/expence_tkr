@@ -1,7 +1,7 @@
 import ExpenceItems from "./components/ExpenceItems";
 function App() {
    const list=[];
-  
+   let d=new Date();
   const expencelist=[
     {
       title:"food",
@@ -19,9 +19,10 @@ function App() {
       location:"pvr cinemas"
     }
   ]
-
+console.log(d)
   for(let i=0;i<=expencelist.length-1;i++){
 list.push(<ExpenceItems 
+  date={d}
   title={expencelist[i].title} 
   price={expencelist[i].price} 
   location={expencelist[i].location}>
