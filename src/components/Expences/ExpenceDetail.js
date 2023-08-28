@@ -1,4 +1,4 @@
-function ExpenceDetail(props){
+const ExpenceDetail=(props)=>{
     const title=props.title;
     const price=props.price;
     const location=props.location;

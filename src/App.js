@@ -1,4 +1,4 @@
-import ExpenceItems from "./components/ExpenceItems";
+import ExpenceItems from "./components/Expences/ExpenceItems";
 function App() {
    const list=[];
    let d=new Date();
