@@ -1,4 +1,5 @@
 import ExpenceItems from "./components/Expences/ExpenceItems";
+import ExpenceForm from "./components/Expences/ExpenceForm";
 function App() {
    const list=[];
    let d=new Date();
@@ -36,6 +37,7 @@ list.push(<ExpenceItems
   
   return (
       <div>
+        <ExpenceForm/>
       <h1>lets start</h1>
   <ul>{list}
   </ul>
